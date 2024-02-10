@@ -4,6 +4,7 @@ import About from "./pages/About.jsx";
 import Article from "./pages/Article.jsx";
 import ArticalsList from "./pages/ArticalsList.jsx";
 import Navbar from "./components/Navbar.jsx";
+import NotFound from "./pages/notFound.jsx";
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
              <Route path="/about" element={<About/>} />
              <Route path="/Article/:name" element={<Article/>}/>
              <Route path="/AList" element={<ArticalsList/>}/>
+             <Route path="*" element={<NotFound/>}/>
          </Routes>
       </div>
     </Router>

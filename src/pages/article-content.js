@@ -3,16 +3,34 @@ const articles = [
         index: 0,
         name: "learn-react",
         title: "Learn React",
-        thumbnail: "https://images.pexels.com/photos/19910983/pexels-photo-19910983/free-photo-of-brunette-woman-sitting-in-traditional-clothing-in-town.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        thumbnail: "../../public/images/pexels-antonio-batinić-4164418.jpg",
         content: [
             `Welcome to React content page`
         ]
     },
     {
+        index: 1,
+        name: "learn-json",
+        title: "Learn-json",
+        thumbnail: "../../public/images/pexels-realtoughcandycom-11035481.jpg",
+        content: [
+            `Welcome to advacnce react page`
+        ]
+    },
+    {
+        index: 2,
+        name: "learn-advance-node",
+        title: "Learn-advance-node",
+        thumbnail: "../../public/images/pexels-realtoughcandycom-11035380.jpg",
+        content: [
+            `Welcome to advacnce react page`
+        ]
+    },
+    {
         index: 4,
-        name: "learn-advance-react",
-        title: "Learn-React-react",
-        thumbnail: "https://images.pexels.com/photos/19910983/pexels-photo-19910983/free-photo-of-brunette-woman-sitting-in-traditional-clothing-in-town.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        name: "learn-basic-react",
+        title: "Learn-basic-react",
+        thumbnail: "../../public/images/pexels-realtoughcandycom-11035471.jpg",
         content: [
             `Welcome to advacnce react page`
         ]

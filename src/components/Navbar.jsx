@@ -11,11 +11,9 @@ const Navbar = () => {
         <li className="inline-block py-4">
           <Link to='/about' className="pl-6 pr-8">About</Link>
         </li>
-
-        <li className="inline-block py-4">
+        {/* <li className="inline-block py-4">
           <Link to='/Article' className="pl-6 pr-8">Article</Link>
-        </li>
-
+        </li> */}
         <li className="inline-block py-4">
           <Link to='/AList' className="pl-6 pr-8">ArticlesList</Link>
         </li>
